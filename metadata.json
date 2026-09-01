@@ -1,0 +1,8 @@
+{
+  "name": "Luz Ribeiro",
+  "description": "Página oficial de links e perfil de Luz Ribeiro (@luzribeiro) com design mobile-first refinado e botões interativos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
