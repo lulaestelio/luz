@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, Lock, MessageCircle, ExternalLink } from 'lucide-react';
-import { PrivacyIcon, TelegramIcon, TikTokIcon } from './PrivacyIcon';
+import { ArrowRight, Lock, MessageCircle, ExternalLink, Instagram } from 'lucide-react';
+import { PrivacyIcon, TelegramIcon, TikTokIcon, XIcon } from './PrivacyIcon';
 import { BioLink } from '../types';
 import { triggerCherryBurst } from './CherryParticles';
 
@@ -19,6 +19,12 @@ export const LinkButton: React.FC<LinkButtonProps> = ({ link, onLinkClick }) => 
     }
     if (link.type === 'telegram') {
       return <TelegramIcon className="w-6 h-6 text-white" />;
+    }
+    if (link.type === 'x' || link.icon === 'x') {
+      return <XIcon className="w-5 h-5 text-white" />;
+    }
+    if (link.type === 'instagram' || link.icon === 'instagram') {
+      return <Instagram className="w-5 h-5 text-white" />;
     }
     if (link.type === 'tiktok' || link.icon === 'tiktok') {
       return <TikTokIcon className="w-6 h-6 text-white" />;
