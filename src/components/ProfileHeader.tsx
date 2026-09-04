@@ -49,8 +49,8 @@ export const ProfileHeader: React.FC<ProfileHeaderProps> = ({
               referrerPolicy="no-referrer"
               loading="eager"
               onError={(e) => {
-                if (e.currentTarget.src !== '/prof.jpg') {
-                  e.currentTarget.src = '/prof.jpg';
+                if (e.currentTarget.src !== '/profile.jpg') {
+                  e.currentTarget.src = '/profile.jpg';
                 }
               }}
             />

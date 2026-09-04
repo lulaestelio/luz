@@ -1,5 +1,5 @@
 import { ProfileData } from '../types';
-import avatarImg from '../assets/images/prof.jpg';
+import avatarImg from '../assets/images/profile.jpg';
 
 export const initialProfile: ProfileData = {
   firstName: 'Luz',
@@ -35,9 +35,9 @@ export const initialProfile: ProfileData = {
     },
     {
       id: 'link-x',
-      title: 'X-@Saralima',
+      title: 'X-@luzribeiro',
       subtitle: 'PERFIL OFICIAL',
-      url: 'https://x.com/saralima',
+      url: 'https://x.com/LuzRibeiro_',
       type: 'x',
       style: 'dark-card',
       icon: 'x',
@@ -73,6 +73,13 @@ export const initialProfile: ProfileData = {
       platform: 'instagram',
       url: 'https://www.instagram.com/luz_ribeiro23',
       username: '@luz_ribeiro23',
+      isActive: true,
+    },
+    {
+      id: 'soc-x',
+      platform: 'x',
+      url: 'https://x.com/LuzRibeiro_',
+      username: '@luzribeiro',
       isActive: true,
     },
   ],
