@@ -26,7 +26,7 @@ export const initialProfile: ProfileData = {
       id: 'link-telegram',
       title: 'Telegram VIP',
       subtitle: 'GRUPO EXCLUSIVO',
-      url: 'https://t.me/luzribeiiro_bot',
+      url: 'https://telegram.me/luzribeiro_bot',
       type: 'telegram',
       style: 'primary-red',
       icon: 'telegram',
